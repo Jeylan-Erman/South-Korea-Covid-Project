@@ -191,89 +191,89 @@ set.seed(10)
 rf0 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,47,47)) #increase the first number 
 print(rf0)                                                                                                                                  #c(623,623) gives me a cost ratio of about 2 to 1
 
-rf2 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,100,100)) #increase the first number 
-print(rf2)                                                                                                                                  #c(623,623) gives me a cost ratio of about 2 to 1
+rf1 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,100,100)) #increase the first number 
+print(rf1)                                                                                                                                  #c(623,623) gives me a cost ratio of about 2 to 1
                                                                                                                        #c(623,623) gives me a cost ratio of about 2 to 1
-rf7 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,200,350)) #increase the first number 
-print(rf7)                                                                                                                                  #c(623,623) gives me a cost ratio of about 2 to 1
+rf2 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,200,350)) #increase the first number 
+print(rf2)                                                                                                                                  #c(623,623) gives me a cost ratio of about 2 to 1
 
-rf8 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,200,275)) #increase the first number 
-print(rf8)                                                                                                                                  #c(623,623) gives me a cost ratio of about 2 to 1
+rf3 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,200,275)) #increase the first number 
+print(rf3)                                                                                                                                  #c(623,623) gives me a cost ratio of about 2 to 1
 
 #this is quite good 
 
-rf9 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,200,250)) #increase the first number 
-print(rf9)              
+rf4 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,200,250)) #increase the first number 
+print(rf4)              
 
-rf10 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,210,250)) #increase the first number 
-print(rf10)              
+rf5 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,210,250)) #increase the first number 
+print(rf5)              
 
 # quite good
 
-rf11 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,210,253)) #increase the first number 
+rf6 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,210,253)) #increase the first number 
+print(rf6)              
+
+rf7 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,210,252)) #increase the first number 
+print(rf7)              
+
+rf8 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,211,252)) #increase the first number 
+print(rf8)              
+
+rf9 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,209,252)) #increase the first number 
+print(rf9)              
+
+rf10 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,209,251)) #increase the first number 
+print(rf10)              
+
+rf11 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,209,250)) #increase the first number 
 print(rf11)              
-
-rf12 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,210,252)) #increase the first number 
-print(rf12)              
-
-rf13 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,211,252)) #increase the first number 
-print(rf13)              
-
-rf14 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,209,252)) #increase the first number 
-print(rf14)              
-
-rf15 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,209,251)) #increase the first number 
-print(rf15)              
-
-rf16 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,209,250)) #increase the first number 
-print(rf16)              
 
 ## Good
 
-rf17 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,209,249)) #increase the first number 
-print(rf17)              
+rf12 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,209,249)) #increase the first number 
+print(rf12)              
 
-rf18 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,208,250)) #increase the first number 
-print(rf18)              
+rf13 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,208,250)) #increase the first number 
+print(rf13)              
 ## Excellent 
 
-rf19 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,225,270)) #increase the first number 
-print(rf9)                            
+rf14 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,225,270)) #increase the first number 
+print(rf14)                            
 
-rf20 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,225,265)) #increase the first number 
-print(rf10)                            
-
-rf21 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,224,265)) #increase the first number 
-print(rf11)                            
-
-rf22 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,223,266)) #increase the first number 
-print(rf12)        
-
-rf23 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,223,265)) #increase the first number 
-print(rf13)                            
-
-rf24 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,223,264)) #increase the first number 
-print(rf14)          
-
-rf25 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,226,265)) #increase the first number 
+rf15 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,225,265)) #increase the first number 
 print(rf15)                            
 
-rf26 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,223,267)) #increase the first number 
-print(rf16)        
+rf16 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,224,265)) #increase the first number 
+print(rf16)                            
 
-rf27 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,222,267)) #increase the first number 
+rf17 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,223,266)) #increase the first number 
 print(rf17)        
 
-rf28 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,224,267)) #increase the first number 
-print(rf18)        
+rf18 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,223,265)) #increase the first number 
+print(rf18)                            
 
-rf29<- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,222,268), importance=T) #increase the first number 
-print(rf19)        
+rf19 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,223,264)) #increase the first number 
+print(rf19)          
+
+rf20 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,226,265)) #increase the first number 
+print(rf20)                            
+
+rf21 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,223,267)) #increase the first number 
+print(rf21)        
+
+rf22 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,222,267)) #increase the first number 
+print(rf22)        
+
+rf23 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,224,267)) #increase the first number 
+print(rf23)        
+
+rf24<- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data2, sampsize=c(47,222,268), importance=T) #increase the first number 
+print(rf24)        
 
 ##Best
 
-rf30<- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data, sampsize=c(47,222,266)) #increase the first number 
-print(rf20)        
+rf25 <- randomForest(state ~ sex + age3 + province + confirmed_date2 + infection_case3, data=data, sampsize=c(47,222,266)) #increase the first number 
+print(rf25)        
 
 
 
@@ -282,11 +282,11 @@ print(rf20)
 
 par(mfrow=c(2,2))
 
-varImpPlot(rf19,class="deceased", type=1,scale=F, main="Var. Imp. Plot: Deceased")
+varImpPlot(rf24,class="deceased", type=1,scale=F, main="Var. Imp. Plot: Deceased")
 
-varImpPlot(rf19,class="isolated", type=1,scale=F, main="Var. Imp. Plot: Isolated")
+varImpPlot(rf24,class="isolated", type=1,scale=F, main="Var. Imp. Plot: Isolated")
 
-varImpPlot(rf19,class="released", type=1,scale=F, main="Var. Imp. Plot: Released")
+varImpPlot(rf24,class="released", type=1,scale=F, main="Var. Imp. Plot: Released")
 
 
 
@@ -294,28 +294,28 @@ varImpPlot(rf19,class="released", type=1,scale=F, main="Var. Imp. Plot: Released
 par(mfrow=c(1,1))
 
 #Age - Deceased
-partialPlot(rf19, pred.data= data2, x.var = age3, rug = T, which.class = "deceased",
+partialPlot(rf24, pred.data= data2, x.var = age3, rug = T, which.class = "deceased",
             main = "Partial Dependence Plot for Deceased on Age", xlab = "Age", ylab = "Centered Log Odds")
 
 #Province - Deceased
-partialPlot(rf19, pred.data= data2, x.var = province, rug = T, which.class = "deceased",
+partialPlot(rf24, pred.data= data2, x.var = province, rug = T, which.class = "deceased",
             main = "Partial Dependence Plot for Deceased on Province", xlab = "Province", ylab = "Centered Log Odds")
 
 
 #Province - released
-partialPlot(rf19, pred.data= data2, x.var = province, rug = T, which.class = "released",
+partialPlot(rf24, pred.data= data2, x.var = province, rug = T, which.class = "released",
                      main = "Partial Dependence Plot for Released on Province", xlab = "Province", ylab = "Centered Log Odds")
 
 #Confirmed date - released
-partialPlot(rf19, pred.data= data2, x.var = confirmed_date2, rug = T, which.class = "released",
+partialPlot(rf24, pred.data= data2, x.var = confirmed_date2, rug = T, which.class = "released",
             main = "Partial Dependence Plot for Released on Confirmation Date", xlab = "Confirmation date", ylab = "Centered Log Odds")
 
 #Province - isolated
-partialPlot(rf19, pred.data= data2, x.var = province, rug = T, which.class = "isolated",
+partialPlot(rf24, pred.data= data2, x.var = province, rug = T, which.class = "isolated",
             main = "Partial Dependence Plot for Released on Province", xlab = "Province", ylab = "Centered Log Odds")
 
 #Confirmation date - isolated
-partialPlot(rf19, pred.data= data2, x.var = confirmed_date2, rug = T, which.class = "isolated",
+partialPlot(rf24, pred.data= data2, x.var = confirmed_date2, rug = T, which.class = "isolated",
             main = "Partial Dependence Plot for Released on Confirmation Date", xlab = "Confirmation date", ylab = "Centered Log Odds")
 
 
@@ -323,33 +323,33 @@ partialPlot(rf19, pred.data= data2, x.var = confirmed_date2, rug = T, which.clas
 par(mfrow=c(1,1))
 
 #Age - Deceased
-partial(rf19, pred.var = "age3", plot= TRUE, prob = TRUE, type = "classification", which.class = "deceased", plot.engine = "ggplot2") + theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust=0.3))+ labs(y = "Predicted Probability", x  = "Age")
+partial(rf24, pred.var = "age3", plot= TRUE, prob = TRUE, type = "classification", which.class = "deceased", plot.engine = "ggplot2") + theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust=0.3))+ labs(y = "Predicted Probability", x  = "Age")
 
 #Province - Deceased
-partial(rf19, pred.var = "province", plot= TRUE, prob = TRUE, type = "classification", which.class = "deceased", plot.engine = "ggplot2") + theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust=0.3))+ labs(y = "Predicted Probability", x  = "Province")
+partial(rf24, pred.var = "province", plot= TRUE, prob = TRUE, type = "classification", which.class = "deceased", plot.engine = "ggplot2") + theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust=0.3))+ labs(y = "Predicted Probability", x  = "Province")
 
 #Province - released
-partial(rf19, pred.var = "province", plot= TRUE, prob = TRUE, type = "classification", which.class = "released", plot.engine = "ggplot2") + theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust=0.3))+ labs(y = "Predicted Probability", x  = "Province")
+partial(rf24, pred.var = "province", plot= TRUE, prob = TRUE, type = "classification", which.class = "released", plot.engine = "ggplot2") + theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust=0.3))+ labs(y = "Predicted Probability", x  = "Province")
 
 #Confirmed date - released
-partial(rf19, pred.var = "confirmed_date2", plot= TRUE, prob = TRUE, type = "classification", which.class = "released", plot.engine = "ggplot2") + theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust=0.3)) + labs(y = "Predicted Probability", x  = "Confirmation date")
+partial(rf24, pred.var = "confirmed_date2", plot= TRUE, prob = TRUE, type = "classification", which.class = "released", plot.engine = "ggplot2") + theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust=0.3)) + labs(y = "Predicted Probability", x  = "Confirmation date")
 
 #Province - isolated
-partial(rf19, pred.var = "province", plot= TRUE, prob = TRUE, type = "classification", which.class = "isolated", plot.engine = "ggplot2") + theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust=0.3)) + labs(y = "Predicted Probability", x  = "Province")
+partial(rf24, pred.var = "province", plot= TRUE, prob = TRUE, type = "classification", which.class = "isolated", plot.engine = "ggplot2") + theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust=0.3)) + labs(y = "Predicted Probability", x  = "Province")
 
 #Confirmation date - isolated
 
-partial(rf19, pred.var = "confirmed_date2", plot= TRUE, prob = TRUE, type = "classification", which.class = "isolated", plot.engine = "ggplot2") + theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust=0.3))+ labs(y = "Predicted Probability", x  = "Confirmation date")
+partial(rf24, pred.var = "confirmed_date2", plot= TRUE, prob = TRUE, type = "classification", which.class = "isolated", plot.engine = "ggplot2") + theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust=0.3))+ labs(y = "Predicted Probability", x  = "Confirmation date")
 
 
 ##MARGINS
 
-hist(margin(rf19))
+hist(margin(rf24))
 
 
-margin1 <- subset(m1, names(margin(rf19))=="deceased")
-margin2 <- subset(m1, names(margin(rf19))=="isolated")
-margin3 <- subset(m1, names(margin(rf19))=="released")
+margin1 <- subset(m1, names(margin(rf24))=="deceased")
+margin2 <- subset(m1, names(margin(rf24))=="isolated")
+margin3 <- subset(m1, names(margin(rf24))=="released")
 
 par(mfrow=c(2,2))
 
@@ -357,6 +357,6 @@ hist(margin1,xlab = "Margin", main = "Histogram - Deceased")
 hist(margin2,xlab = "Margin", main = "Histogram - Isolated")
 hist(margin3,xlab = "Margin", main = "Histogram - Released")
 
-reliability <- predict(rf19, newdata = data2[5:10,], type = "vote")
+reliability <- predict(rf24, newdata = data2[5:10,], type = "vote")
 reliability
 
